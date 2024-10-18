@@ -1,0 +1,15 @@
+C:\Users\João\Documents\GitHub\ValidadorCPF\ValidadorCPF\ValidadorCPF\bin\Debug\net8.0\ValidadorCPF.exe
+C:\Users\João\Documents\GitHub\ValidadorCPF\ValidadorCPF\ValidadorCPF\bin\Debug\net8.0\ValidadorCPF.deps.json
+C:\Users\João\Documents\GitHub\ValidadorCPF\ValidadorCPF\ValidadorCPF\bin\Debug\net8.0\ValidadorCPF.runtimeconfig.json
+C:\Users\João\Documents\GitHub\ValidadorCPF\ValidadorCPF\ValidadorCPF\bin\Debug\net8.0\ValidadorCPF.dll
+C:\Users\João\Documents\GitHub\ValidadorCPF\ValidadorCPF\ValidadorCPF\bin\Debug\net8.0\ValidadorCPF.pdb
+C:\Users\João\Documents\GitHub\ValidadorCPF\ValidadorCPF\ValidadorCPF\obj\Debug\net8.0\ValidadorCPF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\João\Documents\GitHub\ValidadorCPF\ValidadorCPF\ValidadorCPF\obj\Debug\net8.0\ValidadorCPF.AssemblyInfoInputs.cache
+C:\Users\João\Documents\GitHub\ValidadorCPF\ValidadorCPF\ValidadorCPF\obj\Debug\net8.0\ValidadorCPF.AssemblyInfo.cs
+C:\Users\João\Documents\GitHub\ValidadorCPF\ValidadorCPF\ValidadorCPF\obj\Debug\net8.0\ValidadorCPF.csproj.CoreCompileInputs.cache
+C:\Users\João\Documents\GitHub\ValidadorCPF\ValidadorCPF\ValidadorCPF\obj\Debug\net8.0\ValidadorCPF.sourcelink.json
+C:\Users\João\Documents\GitHub\ValidadorCPF\ValidadorCPF\ValidadorCPF\obj\Debug\net8.0\ValidadorCPF.dll
+C:\Users\João\Documents\GitHub\ValidadorCPF\ValidadorCPF\ValidadorCPF\obj\Debug\net8.0\refint\ValidadorCPF.dll
+C:\Users\João\Documents\GitHub\ValidadorCPF\ValidadorCPF\ValidadorCPF\obj\Debug\net8.0\ValidadorCPF.pdb
+C:\Users\João\Documents\GitHub\ValidadorCPF\ValidadorCPF\ValidadorCPF\obj\Debug\net8.0\ValidadorCPF.genruntimeconfig.cache
+C:\Users\João\Documents\GitHub\ValidadorCPF\ValidadorCPF\ValidadorCPF\obj\Debug\net8.0\ref\ValidadorCPF.dll
