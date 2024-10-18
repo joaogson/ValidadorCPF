@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ValidadorCPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6496509d8310529e6cc648fbaba03ad2601618a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("ValidadorCPF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ValidadorCPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
