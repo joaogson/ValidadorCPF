@@ -11,9 +11,9 @@ namespace ValidadorCPF.Services
     {
         public List<CPF> CPFs { get; set; }
 
-        public void AddCPF()
+        public void AddCPF(CPF cpf)
         {
-
+            CPFs.Add(cpf);
         }
 
         public void UpdateCPF()
@@ -21,9 +21,15 @@ namespace ValidadorCPF.Services
 
         }
 
-        public void DeleteCPF()
+        public void DeleteCPF(CPF cpf)
         {
+            CPFs.Remove(cpf);
+        }
 
+        public void ListCPFs()
+        {
+            foreach (var cpf in CPFs)
+                Console.WriteLine(cpf.ToString());
         }
     }
 }

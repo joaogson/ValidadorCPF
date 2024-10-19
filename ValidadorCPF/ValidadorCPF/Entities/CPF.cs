@@ -10,7 +10,7 @@ namespace ValidadorCPF.Entities
     class CPF
     {
         public string Serial { get; set; }
-
+        public string Region { get; set; }
         public Validator cpfValidator { get; set; }
 
         public CPF(string serial, CPFvalidator cpfValidator)

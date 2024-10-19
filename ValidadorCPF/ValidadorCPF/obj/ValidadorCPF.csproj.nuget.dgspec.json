@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\João\\Desktop\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF.csproj": {}
+    "C:\\Users\\João\\Documents\\GitHub\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\João\\Desktop\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF.csproj": {
+    "C:\\Users\\João\\Documents\\GitHub\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\João\\Desktop\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF.csproj",
+        "projectUniqueName": "C:\\Users\\João\\Documents\\GitHub\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF.csproj",
         "projectName": "ValidadorCPF",
-        "projectPath": "C:\\Users\\João\\Desktop\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF.csproj",
+        "projectPath": "C:\\Users\\João\\Documents\\GitHub\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF.csproj",
         "packagesPath": "C:\\Users\\João\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\João\\Desktop\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF\\obj\\",
+        "outputPath": "C:\\Users\\João\\Documents\\GitHub\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

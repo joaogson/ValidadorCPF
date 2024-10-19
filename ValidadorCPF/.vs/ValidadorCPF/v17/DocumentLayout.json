@@ -1,22 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Jo\u00E3o\\Desktop\\ValidadorCPF\\ValidadorCPF\\",
+  "WorkspaceRootPath": "C:\\Users\\Jo\u00E3o\\Documents\\GitHub\\ValidadorCPF\\ValidadorCPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{086337F6-7A9F-4D8B-9EED-393A6D2D2EC5}|ValidadorCPF\\ValidadorCPF.csproj|c:\\users\\jo\u00E3o\\desktop\\validadorcpf\\validadorcpf\\validadorcpf\\services\\cpfvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{086337F6-7A9F-4D8B-9EED-393A6D2D2EC5}|ValidadorCPF\\ValidadorCPF.csproj|c:\\users\\jo\u00E3o\\documents\\github\\validadorcpf\\validadorcpf\\validadorcpf\\services\\cpfvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{086337F6-7A9F-4D8B-9EED-393A6D2D2EC5}|ValidadorCPF\\ValidadorCPF.csproj|solutionrelative:validadorcpf\\services\\cpfvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{086337F6-7A9F-4D8B-9EED-393A6D2D2EC5}|ValidadorCPF\\ValidadorCPF.csproj|c:\\users\\jo\u00E3o\\desktop\\validadorcpf\\validadorcpf\\validadorcpf\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{086337F6-7A9F-4D8B-9EED-393A6D2D2EC5}|ValidadorCPF\\ValidadorCPF.csproj|solutionrelative:validadorcpf\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{086337F6-7A9F-4D8B-9EED-393A6D2D2EC5}|ValidadorCPF\\ValidadorCPF.csproj|c:\\users\\jo\u00E3o\\documents\\github\\validadorcpf\\validadorcpf\\validadorcpf\\enums\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{086337F6-7A9F-4D8B-9EED-393A6D2D2EC5}|ValidadorCPF\\ValidadorCPF.csproj|solutionrelative:validadorcpf\\enums\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{086337F6-7A9F-4D8B-9EED-393A6D2D2EC5}|ValidadorCPF\\ValidadorCPF.csproj|c:\\users\\jo\u00E3o\\desktop\\validadorcpf\\validadorcpf\\validadorcpf\\services\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{086337F6-7A9F-4D8B-9EED-393A6D2D2EC5}|ValidadorCPF\\ValidadorCPF.csproj|c:\\users\\jo\u00E3o\\documents\\github\\validadorcpf\\validadorcpf\\validadorcpf\\entities\\cpf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{086337F6-7A9F-4D8B-9EED-393A6D2D2EC5}|ValidadorCPF\\ValidadorCPF.csproj|solutionrelative:validadorcpf\\entities\\cpf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{086337F6-7A9F-4D8B-9EED-393A6D2D2EC5}|ValidadorCPF\\ValidadorCPF.csproj|c:\\users\\jo\u00E3o\\documents\\github\\validadorcpf\\validadorcpf\\validadorcpf\\services\\cpfmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{086337F6-7A9F-4D8B-9EED-393A6D2D2EC5}|ValidadorCPF\\ValidadorCPF.csproj|solutionrelative:validadorcpf\\services\\cpfmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{086337F6-7A9F-4D8B-9EED-393A6D2D2EC5}|ValidadorCPF\\ValidadorCPF.csproj|c:\\users\\jo\u00E3o\\documents\\github\\validadorcpf\\validadorcpf\\validadorcpf\\services\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{086337F6-7A9F-4D8B-9EED-393A6D2D2EC5}|ValidadorCPF\\ValidadorCPF.csproj|solutionrelative:validadorcpf\\services\\validator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{086337F6-7A9F-4D8B-9EED-393A6D2D2EC5}|ValidadorCPF\\ValidadorCPF.csproj|c:\\users\\jo\u00E3o\\desktop\\validadorcpf\\validadorcpf\\validadorcpf\\entities\\cpf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{086337F6-7A9F-4D8B-9EED-393A6D2D2EC5}|ValidadorCPF\\ValidadorCPF.csproj|solutionrelative:validadorcpf\\entities\\cpf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{086337F6-7A9F-4D8B-9EED-393A6D2D2EC5}|ValidadorCPF\\ValidadorCPF.csproj|c:\\users\\jo\u00E3o\\documents\\github\\validadorcpf\\validadorcpf\\validadorcpf\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{086337F6-7A9F-4D8B-9EED-393A6D2D2EC5}|ValidadorCPF\\ValidadorCPF.csproj|solutionrelative:validadorcpf\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,53 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Validator.cs",
-              "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\Desktop\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF\\Services\\Validator.cs",
-              "RelativeDocumentMoniker": "ValidadorCPF\\Services\\Validator.cs",
-              "ToolTip": "C:\\Users\\Jo\u00E3o\\Desktop\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF\\Services\\Validator.cs",
-              "RelativeToolTip": "ValidadorCPF\\Services\\Validator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Region.cs",
+              "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\Documents\\GitHub\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF\\Enums\\Region.cs",
+              "RelativeDocumentMoniker": "ValidadorCPF\\Enums\\Region.cs",
+              "ToolTip": "C:\\Users\\Jo\u00E3o\\Documents\\GitHub\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF\\Enums\\Region.cs",
+              "RelativeToolTip": "ValidadorCPF\\Enums\\Region.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T20:57:29.291Z"
+              "WhenOpened": "2024-10-19T21:18:53.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CPF.cs",
+              "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\Documents\\GitHub\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF\\Entities\\CPF.cs",
+              "RelativeDocumentMoniker": "ValidadorCPF\\Entities\\CPF.cs",
+              "ToolTip": "C:\\Users\\Jo\u00E3o\\Documents\\GitHub\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF\\Entities\\CPF.cs",
+              "RelativeToolTip": "ValidadorCPF\\Entities\\CPF.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T21:16:17.264Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CPF.cs",
-              "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\Desktop\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF\\Entities\\CPF.cs",
-              "RelativeDocumentMoniker": "ValidadorCPF\\Entities\\CPF.cs",
-              "ToolTip": "C:\\Users\\Jo\u00E3o\\Desktop\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF\\Entities\\CPF.cs",
-              "RelativeToolTip": "ValidadorCPF\\Entities\\CPF.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "CPFmanager.cs",
+              "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\Documents\\GitHub\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF\\Services\\CPFmanager.cs",
+              "RelativeDocumentMoniker": "ValidadorCPF\\Services\\CPFmanager.cs",
+              "ToolTip": "C:\\Users\\Jo\u00E3o\\Documents\\GitHub\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF\\Services\\CPFmanager.cs",
+              "RelativeToolTip": "ValidadorCPF\\Services\\CPFmanager.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T20:17:41.602Z"
+              "WhenOpened": "2024-10-19T21:13:36.953Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\Desktop\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF\\Program.cs",
-              "RelativeDocumentMoniker": "ValidadorCPF\\Program.cs",
-              "ToolTip": "C:\\Users\\Jo\u00E3o\\Desktop\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF\\Program.cs",
-              "RelativeToolTip": "ValidadorCPF\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Validator.cs",
+              "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\Documents\\GitHub\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF\\Services\\Validator.cs",
+              "RelativeDocumentMoniker": "ValidadorCPF\\Services\\Validator.cs",
+              "ToolTip": "C:\\Users\\Jo\u00E3o\\Documents\\GitHub\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF\\Services\\Validator.cs",
+              "RelativeToolTip": "ValidadorCPF\\Services\\Validator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T20:17:25.311Z"
+              "WhenOpened": "2024-10-17T20:57:29.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\Documents\\GitHub\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF\\Program.cs",
+              "RelativeDocumentMoniker": "ValidadorCPF\\Program.cs",
+              "ToolTip": "C:\\Users\\Jo\u00E3o\\Documents\\GitHub\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF\\Program.cs",
+              "RelativeToolTip": "ValidadorCPF\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T20:17:25.311Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CPFvalidator.cs",
-              "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\Desktop\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF\\Services\\CPFvalidator.cs",
+              "DocumentMoniker": "C:\\Users\\Jo\u00E3o\\Documents\\GitHub\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF\\Services\\CPFvalidator.cs",
               "RelativeDocumentMoniker": "ValidadorCPF\\Services\\CPFvalidator.cs",
-              "ToolTip": "C:\\Users\\Jo\u00E3o\\Desktop\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF\\Services\\CPFvalidator.cs",
+              "ToolTip": "C:\\Users\\Jo\u00E3o\\Documents\\GitHub\\ValidadorCPF\\ValidadorCPF\\ValidadorCPF\\Services\\CPFvalidator.cs",
               "RelativeToolTip": "ValidadorCPF\\Services\\CPFvalidator.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAcwBkAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T19:05:21.7Z",
               "EditorCaption": ""
