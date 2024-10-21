@@ -14,6 +14,7 @@ namespace ValidadorCPF
             CPFvalidator validator = new CPFvalidator();
             CPF cpf = new CPF(serial, validator);
 
+            Console.WriteLine(cpf.Serial);
             Console.WriteLine();
             Console.WriteLine("CPF VALIDO: " + cpf);
         }

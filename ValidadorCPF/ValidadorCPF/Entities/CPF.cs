@@ -5,113 +5,86 @@ using System.Text;
 using System.Threading.Tasks;
 using ValidadorCPF.Services;
 using ValidadorCPF.Entities.Enums;
+using System.Text.RegularExpressions;
 
 namespace ValidadorCPF.Entities
 {
     class CPF
     {
-        public string Serial { get; set; }        
+        public string Serial { get; set; }
         public Validator cpfValidator { get; set; }
-        public Region TaxRegion {
-            get { return TaxRegion; }
-            set { Region(this); }
-        }
+        public Region TaxRegion { get; set; }
+
+
 
         public CPF(string serial, CPFvalidator cpfValidator)
         {
-            Serial = serial;
-            this.cpfValidator = cpfValidator;
 
+            Serial = serial;
+
+            this.cpfValidator = cpfValidator;
 
             cpfValidator.Validate(this);
 
+            SetTaxRegion(this);
 
         }
-        public string Region(CPF cpf)
+        public void SetTaxRegion(CPF cpf)
         {
-            char region = cpf.Serial[8];
-
-            string taxRegion = null;
-            switch (region)
-            {
-
-                case '1':
-                    cpf.TaxRegion = Entities.Enums.Region.RegiaoFiscal1;
-
-                    taxRegion = $"Região Fiscal {1}";
-                    break;
-
-                case '2':
-
-                    cpf.TaxRegion = Entities.Enums.Region.RegiaoFiscal2;
-                    taxRegion = $"Região Fiscal {2}";
-                    break;
-
-                case '3':
-
-                    cpf.TaxRegion = Entities.Enums.Region.RegiaoFiscal3;
-
-                    taxRegion = $"Região Fiscal {3}";
-                    break;
-
-                case '4':
-
-                    cpf.TaxRegion = Entities.Enums.Region.RegiaoFiscal4;
-
-                    taxRegion = $"Região Fiscal {4}";
-                    break;
-
-                case '5':
-
-                    cpf.TaxRegion = Entities.Enums.Region.RegiaoFiscal5;
-
-                    taxRegion = $"Região Fiscal {5}";
-                    break;
-
-                case '6':
-
-                    cpf.TaxRegion = Entities.Enums.Region.RegiaoFiscal6;
-
-                    taxRegion = $"Região Fiscal {6}";
-                    break;
-
-                case '7':
-
-                    cpf.TaxRegion = Entities.Enums.Region.RegiaoFiscal7;
-
-                    taxRegion = $"Região Fiscal {7}";
-                    break;
-
-                case '8':
-
-                    cpf.TaxRegion = Entities.Enums.Region.RegiaoFiscal8;
-
-                    taxRegion = $"Região Fiscal {8}";
-                    break;
-
-                case '9':
-
-                    cpf.TaxRegion = Entities.Enums.Region.RegiaoFiscal9;
-
-                    taxRegion = $"Região Fiscal {9}";
-                    break;
-
-                case '0':
-
-                    cpf.TaxRegion = Entities.Enums.Region.RegiaoFiscal0;
-
-                    taxRegion = $"Região Fiscal {0}";
-                    break;
-
-            }
-            return taxRegion;
+            Console.WriteLine(cpf.Serial[9]);
+            int numRegion = int.Parse(cpf.Serial.Substring(8,1));
+            Region TaxRegion = (Region)numRegion;
+            DescribeRegion(TaxRegion);
         }
 
+        public string DescribeRegion(Region taxRegion)
+        {
+            string Description;
+            
+            switch (taxRegion)
+            {
+                case Region.RegiaoFiscal0:
+                    Description = "Rio Grande do Sul";
+                    break;
+                case Region.RegiaoFiscal1:
+                    Description = "Distrito Federal, Goiás, Mato Grosso e Mato Grosso do Sul";
+                    break;
+                case Region.RegiaoFiscal2:
+                    Description = "Acre, Amapá, Amazonas, Pará, Rondônia e Roraima";
+                    break;
+                case Region.RegiaoFiscal3:
+                    Description = "Cerá, Maranhão e Piauí";
+                    break;
+                case Region.RegiaoFiscal4:
+                    Description = "Alagoas, Paraíba, Pernambuco e Rio Grande do Norte";
+                    break;
+                case Region.RegiaoFiscal5:
+                    Description = "Bahia e Sergipe";
+                    break;
+                case Region.RegiaoFiscal6:
+                    Description = "Minas Gerais";
+                    break;
+                case Region.RegiaoFiscal7:
+                    Description = "Espirito Santo e Rio de Janeiro";
+                    break;
+                case Region.RegiaoFiscal8:
+                    Description = "São Paulo";
+                    break;
+                case Region.RegiaoFiscal9:
+                    Description = "Paraná e Santa Catarina";
+                    break;
+                default:
+                    Description = "Região Desconhecida";
+                    break;
+            }
+
+            return Description;
+        }
 
         public override string ToString()
         {
             return "Cpf: " + Serial
-                + "Região Fiscal: " + TaxRegion;
+                + ", Região Fiscal: " + DescribeRegion(TaxRegion);
         }
     }
 }

@@ -38,7 +38,7 @@ namespace ValidadorCPF.Services
 
                     throw new Exception();
                 //Se o CPF possuir 14 digitos quer dizer que possui pontos e traço
-                else if (cpf.Serial.Length == 14)
+                else if (cpf.Serial.Length == 13)
                 {
                     // Verifica se está de acordo com o modelo de cpf xxx.xxx.xxx-xx
                     if (Regex.Match(cpf.Serial, cpfModel).Success == false)
