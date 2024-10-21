@@ -9,7 +9,7 @@ namespace ValidadorCPF.Services
 {
     class CPFmanager
     {
-        public List<CPF> CPFs { get; set; }
+        public List<CPF> CPFs { get; set; } = new List<CPF>();
 
         public void AddCPF(CPF cpf)
         {

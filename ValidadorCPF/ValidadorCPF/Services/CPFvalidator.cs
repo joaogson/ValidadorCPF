@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Text.RegularExpressions;
 using ValidadorCPF.Services;
 using ValidadorCPF.Entities;
+using ValidadorCPF.Entities.Enums;
 
 namespace ValidadorCPF.Services
 {
@@ -24,11 +25,11 @@ namespace ValidadorCPF.Services
             string patternCpfOnlyNumber = "[0-9]";
             //Modelo de cpf xxx.xxx.xxx-xx ou xxx.xxx.xxx.xx
             string cpfModel = "^[0-9]{3}\\.[0-9]{3}\\.[0-9]{3}[-\\.][0-9]{2}$";
-            
+
 
             try
             {
-                
+
                 //------------------------ Verificação dos caracteres do input ------------------------
                 //Verificação se o CPF é valido
                 // Se o CPF possui letras 
@@ -53,9 +54,9 @@ namespace ValidadorCPF.Services
 
 
                 //Regex.Matches = procura dentro da string ocorrencias do patternCpfOnlyNumber
-                
-                
-                
+
+
+
                 int[] cpfNumber = Regex.Matches(cpf.Serial, patternCpfOnlyNumber)
                     //Cast = converte a coleção MatchCollection(tipo de retorno da função matches) em um tipo que herda de IEnumerable para poder ultilizar as outras funções
                     .Cast<Match>()
@@ -72,9 +73,9 @@ namespace ValidadorCPF.Services
                 se essa multiplicação divido por 11 for menor que 2 o primeiro numero verificador deve ser 0, se não
                 o numero verificador deve ser igual a 11 - o resto
                  */
-                for(int i =0; i< cpfNumber.Length - 2; i++)
+                for (int i = 0; i < cpfNumber.Length - 2; i++)
                 {
-                    Console.WriteLine($"{soma += cpfNumber[i] * j}"); 
+                    Console.WriteLine($"{soma += cpfNumber[i] * j}");
                     j--;
                 }
                 Console.WriteLine(soma);
@@ -134,19 +135,17 @@ namespace ValidadorCPF.Services
                 99999999999,
                 00000000000};
 
-                foreach(long serial in blackList)
+               /* foreach (long serial in blackList)
                 {
-                    if(Convert.ToInt64(cpfNumber) == serial)
+                    if (Convert.ToInt32(cpfNumber) == serial)
                         Console.WriteLine(cpfNumber);
-                }
+                }*/
 
                 Console.WriteLine("CPF válidado!");
 
                 CPFmanager cpfManager = new CPFmanager();
 
                 cpfManager.AddCPF(cpf);
-
-
 
                 return true;
 
@@ -157,47 +156,6 @@ namespace ValidadorCPF.Services
             }
         }
 
-        public int Region(CPF cpf)
-        {
-            char region = cpf.Serial[8];
-
-
-            switch (region)
-            {
-                case '1':
-                        
-                    break;
-
-                case '2':
-                    break;
-
-                case '3':
-                    break;
-
-                case '4':
-                    break;
-
-                case '5':
-                    break;
-
-                case '6':
-                    break;
-
-                case '7':
-                    break;
-
-                case '8':
-                    break;
-
-                case '9':
-                    break;
-
-                case '0':
-                    break;
-
-
-
-            }
-        }
+        
     }
 }

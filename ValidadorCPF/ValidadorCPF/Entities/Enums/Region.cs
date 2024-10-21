@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ValidadorCPF.Enums
+namespace ValidadorCPF.Entities.Enums
 {
-    enum Region
+    enum Region : int
     {
         RegiaoFiscal1 = 1,
         RegiaoFiscal2 = 2,
@@ -18,8 +18,6 @@ namespace ValidadorCPF.Enums
         RegiaoFiscal8 = 8,
         RegiaoFiscal9 = 9,
         RegiaoFiscal0 = 0
-         
-
 
     }
 }
