@@ -12,8 +12,6 @@ namespace ValidadorCPF.Services
 {
     class CPFvalidator : Validator
     {
-
-
         public bool Validate(object item)
         {
             //Downcast do parametro que é do tipo object para uma variavel do tipo cpf para poder realizar as operãções com suas propriedades
@@ -26,7 +24,6 @@ namespace ValidadorCPF.Services
             //Modelo de cpf xxx.xxx.xxx-xx ou xxx.xxx.xxx.xx
             string cpfModel = "^[0-9]{3}\\.[0-9]{3}\\.[0-9]{3}[-\\.][0-9]{2}$";
 
-
             try
             {
 
@@ -38,7 +35,7 @@ namespace ValidadorCPF.Services
 
                     throw new Exception();
                 //Se o CPF possuir 14 digitos quer dizer que possui pontos e traço
-                else if (cpf.Serial.Length == 13)
+                else if (cpf.Serial.Length == 14)
                 {
                     // Verifica se está de acordo com o modelo de cpf xxx.xxx.xxx-xx
                     if (Regex.Match(cpf.Serial, cpfModel).Success == false)
@@ -52,11 +49,7 @@ namespace ValidadorCPF.Services
 
                 //------------------------ Verificação Matemática ------------------------
 
-
                 //Regex.Matches = procura dentro da string ocorrencias do patternCpfOnlyNumber
-
-
-
                 int[] cpfNumber = Regex.Matches(cpf.Serial, patternCpfOnlyNumber)
                     //Cast = converte a coleção MatchCollection(tipo de retorno da função matches) em um tipo que herda de IEnumerable para poder ultilizar as outras funções
                     .Cast<Match>()
@@ -75,27 +68,27 @@ namespace ValidadorCPF.Services
                  */
                 for (int i = 0; i < cpfNumber.Length - 2; i++)
                 {
-                    Console.WriteLine($"{soma += cpfNumber[i] * j}");
+                    soma += cpfNumber[i] * j;
                     j--;
                 }
-                Console.WriteLine(soma);
-                Console.WriteLine("--");
 
                 // Verificação do primeiro digito verificador
 
                 int primeiroValidador = soma % 11;
-                Console.WriteLine(primeiroValidador);
+
                 if (primeiroValidador >= 2)
                 {
                     if (cpfNumber[9] != 11 - primeiroValidador)
-                        throw new Exception();
+                        
+                        return false;
+
                 }
                 else
                 {
                     if (cpfNumber[9] != 0)
-                        throw new Exception();
+                        
+                    return false;
                 }
-
 
                 //Verificação segundo digito verificador
                 j = 11;
@@ -103,23 +96,23 @@ namespace ValidadorCPF.Services
 
                 for (int i = 0; i < cpfNumber.Length - 1; i++)
                 {
-                    Console.WriteLine($"{soma += cpfNumber[i] * j}");
+                    soma += cpfNumber[i] * j;
                     j--;
                 }
 
-                Console.WriteLine(soma);
-
                 primeiroValidador = soma % 11;
-                Console.WriteLine(primeiroValidador);
+
                 if (primeiroValidador >= 2)
                 {
                     if (cpfNumber[10] != 11 - primeiroValidador)
-                        throw new Exception();
+                        
+                    return false;
                 }
                 else
                 {
                     if (cpfNumber[10] != 0)
-                        throw new Exception();
+                        
+                    return false;
                 }
 
                 //------------------------ Verificação blacklist ------------------------
@@ -135,17 +128,16 @@ namespace ValidadorCPF.Services
                 99999999999,
                 00000000000};
 
-               /* foreach (long serial in blackList)
+
+                //Verifica se ja existe
+                if (CPFmanager.CPFs.FirstOrDefault(x => x.Serial.Equals(cpf.Serial)) != null)
                 {
-                    if (Convert.ToInt32(cpfNumber) == serial)
-                        Console.WriteLine(cpfNumber);
-                }*/
+                    Console.Clear();
+                    Console.WriteLine("CPF ja existe");
 
-                Console.WriteLine("CPF válidado!");
-
-                CPFmanager cpfManager = new CPFmanager();
-
-                cpfManager.AddCPF(cpf);
+                    
+                    return false;
+                }                
 
                 return true;
 
@@ -156,6 +148,6 @@ namespace ValidadorCPF.Services
             }
         }
 
-        
+
     }
 }
