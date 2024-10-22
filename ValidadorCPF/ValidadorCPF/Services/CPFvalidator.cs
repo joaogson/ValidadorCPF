@@ -128,6 +128,16 @@ namespace ValidadorCPF.Services
                 99999999999,
                 00000000000};
 
+                long cpfValidateBlackList = long.Parse(string.Join("", cpfNumber));
+
+                foreach(long num in blackList)
+                {
+                    if(cpfValidateBlackList == num)
+                    {
+                        return false;
+                    }
+                }
+
 
                 //Verifica se ja existe
                 if (CPFmanager.CPFs.FirstOrDefault(x => x.Serial.Equals(cpf.Serial)) != null)
